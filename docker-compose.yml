@@ -1,0 +1,17 @@
+version: '2'
+# @see https://docs.docker.com/compose/compose-file/compose-file-v2/
+services:
+  webserver:
+    build:
+      context: ./_docker
+      dockerfile: php.Dockerfile
+    ports:
+      - "8080:80"
+    volumes:
+      - .:/var/www/html/
+  postgres:
+    build:
+      context: ./_docker
+      dockerfile: postgres.Dockerfile
+    ports:
+      - "5432:5432"
