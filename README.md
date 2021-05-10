@@ -1,5 +1,5 @@
-# portal-noticias
-Portal de Notícias criado no curso https://www.udemy.com/course/curso-de-codeigniter-4
+# news-portal
+News Portal created during the course https://www.udemy.com/course/curso-de-codeigniter-4
 
 # Important
 At the first start, run the command below to create a .env file and change it to de respective environment
